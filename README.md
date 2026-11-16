@@ -47,7 +47,7 @@ Você deverá:
 ## Links necessários
 
 - Extensão para o Visual Studio Code: [INSERIR LINK DA EXTENSÃO]
-- Instruções detalhadas: [INSTRUCOES.md](INSTRUCOESio de avaliação pós-uso: [INSERIR LINK DO QUESTIONÁRIO FINAL]
+- Instruções detalhadas: [INSTRUCOES.md](https://github.com/DSRodriguess/avaliacao-extensao-acessibilidade/blob/main/INSTRUCOES.md)
 
 ## Informações importantes
 
