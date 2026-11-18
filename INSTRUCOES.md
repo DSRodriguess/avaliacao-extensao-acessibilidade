@@ -6,7 +6,7 @@ Siga as etapas abaixo na ordem apresentada.
 
 1. Acesse o repositório da extensão pelo link abaixo:
 
-   [INSERIR LINK DA EXTENSÃO](https://github.com/DSRodriguess/wcag-accessibility-checker-release)
+   [Link da extensão](https://github.com/DSRodriguess/wcag-accessibility-checker-release)
 
 2. Acesse a seção Releases do repositório.
 
