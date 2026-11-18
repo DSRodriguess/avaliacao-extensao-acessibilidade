@@ -1,104 +1,267 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro no evento</title>
-</head>
+    <title>Conecta Web - Evento de Tecnologia</title>
 
-<body style="color: #aaaaaa; background-color: #ffffff;">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    <header>
-        <h1>Inscrição no evento de tecnologia</h1>
-    </header>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f5fb;
+            color: #aaaaaa;
+            line-height: 1.4;
+        }
 
-    <header>
-        <p>Evento acadêmico sobre desenvolvimento Web</p>
-    </header>
+        header {
+            background: #30266f;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#programacao">Saiba mais</a>
-    </nav>
+        nav {
+            background: #493ca0;
+            padding: 15px;
+            text-align: center;
+        }
 
-    <nav>
-        <a href="#contato">Clique aqui</a>
-    </nav>
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
 
-    <section id="inicio">
-        <h3>Informações do participante</h3>
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
 
-        <img src="evento.jpg">
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000010;
+        }
 
-        <form>
-            <p>Nome completo</p>
-            <input type="text" id="nome">
+        h1 {
+            margin-bottom: 10px;
+        }
 
-            <label for="email">E-mail</label>
-            <input type="email" id="email">
+        h3 {
+            color: #30266f;
+        }
 
-            <select id="experiencia">
-                <option value="">Selecione sua experiência</option>
-                <option value="iniciante">Iniciante</option>
-                <option value="intermediario">Intermediário</option>
-            </select>
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
 
-            <textarea id="observacoes"></textarea>
+        button {
+            background: #493ca0;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
 
-            <input
-                type="search"
-                aria-labelledby="rotulo-inexistente"
-                placeholder="Pesquisar"
-            >
+        button:focus {
+            outline: none;
+        }
 
-            <button
-                type="submit"
-                role="button"
-                style="width: 20px; height: 20px; outline: none;"
-            >
-                OK
-            </button>
-        </form>
-    </section>
+        .botao-pequeno {
+            width: 20px;
+            height: 20px;
+            padding: 0;
+        }
 
-    <section id="programacao">
-        <h5>Programação</h5>
+        .programacao {
+            background: #eeecff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
 
-        <p style="
+        .texto-pequeno {
+            font-size: 14px;
             line-height: 1;
             letter-spacing: -1px;
             word-spacing: -2px;
-        ">
-            Consulte os horários e as atividades disponíveis.
-        </p>
+        }
 
-        <a>Mais informações</a>
+        footer {
+            background: #30266f;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
 
-        <a href="#palestras" aria-hidden="talvez">
-            Ver mais
-        </a>
+<body>
 
-        <div role="botao" tabindex="0">
-            Abrir programação
-        </div>
-    </section>
+    <header>
+        <h1>Conecta Web 2026</h1>
+        <p>Conectando pessoas, ideias e tecnologia.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre o evento</a>
+        <a href="#programacao">Programação</a>
+        <a href="#inscricao">Inscrição</a>
+    </nav>
 
     <main>
-        <h2 id="palestras">Palestras confirmadas</h2>
-        <p>Confira as palestras disponíveis.</p>
-    </main>
 
-    <main>
-        <h2>Minicursos</h2>
-        <a href="#inscricao">Link</a>
+        <section id="sobre">
+            <h3>Sobre o evento</h3>
+
+            <p>
+                O Conecta Web é um evento acadêmico voltado
+                para estudantes e profissionais interessados
+                em desenvolvimento de software.
+            </p>
+
+            <img src="evento.jpg" width="300">
+
+            <p>
+                Durante o evento serão abordados temas como
+                desenvolvimento web, experiência do usuário
+                e acessibilidade digital.
+            </p>
+
+            <a>Saiba mais sobre o evento</a>
+        </section>
+
+        <section id="programacao">
+            <h5>Programação</h5>
+
+            <div class="programacao">
+                <h3>13h00 - Desenvolvimento Web</h3>
+                <p>Introdução às principais tecnologias web.</p>
+            </div>
+
+            <div class="programacao">
+                <h3>14h30 - Acessibilidade Digital</h3>
+                <p>
+                    A importância de desenvolver aplicações
+                    acessíveis para todas as pessoas.
+                </p>
+            </div>
+
+            <div class="programacao">
+                <h3>16h00 - Testes de Software</h3>
+                <p>Ferramentas e boas práticas de desenvolvimento.</p>
+            </div>
+
+            <p class="texto-pequeno">
+                Consulte os horários e as atividades disponíveis
+                para aproveitar melhor o evento.
+            </p>
+
+            <a href="#inscricao" aria-hidden="talvez">
+                Clique aqui
+            </a>
+
+            <div role="botao" tabindex="0">
+                Ver programação completa
+            </div>
+        </section>
+
+        <section id="inscricao">
+            <h2>Faça sua inscrição</h2>
+
+            <p>
+                Preencha o formulário abaixo para participar
+                gratuitamente do evento.
+            </p>
+
+            <form>
+
+                <p>Nome completo</p>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                >
+
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
+                >
+
+                <label for="experiencia">
+                    Nível de experiência
+                </label>
+
+                <select id="experiencia">
+                    <option value="">Selecione uma opção</option>
+                    <option value="iniciante">Iniciante</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+
+                <label for="mensagem">Por que deseja participar?</label>
+                <textarea
+                    id="mensagem"
+                    placeholder="Escreva sua resposta..."
+                ></textarea>
+
+                <input
+                    type="search"
+                    aria-labelledby="rotulo-inexistente"
+                    placeholder="Pesquisar assunto"
+                >
+
+                <button type="submit">
+                    Realizar inscrição
+                </button>
+
+                <button type="button" class="botao-pequeno">
+                    OK
+                </button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Local do evento</h2>
+
+            <p>
+                O evento será realizado no auditório
+                principal da universidade.
+            </p>
+
+            <a href="#sobre">Voltar ao início</a>
+        </section>
+
     </main>
 
     <footer>
-        <input type="text" tabindex="-1" aria-labe="Contato">
-    </footer>
+        <h2>Conecta Web 2026</h2>
+        <p>Evento acadêmico de tecnologia e desenvolvimento.</p>
+        <p>Todos os direitos reservados.</p>
 
-    <footer>
-        <p>Evento acadêmico 2026</p>
+        <input
+            type="text"
+            tabindex="-1"
+            aria-labe="Contato"
+            placeholder="Contato"
+        >
     </footer>
 
 </body>
