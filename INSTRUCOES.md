@@ -6,15 +6,21 @@ Siga as etapas abaixo na ordem apresentada.
 
 1. Acesse o repositório da extensão pelo link abaixo:
 
-   [INSERIR LINK DA EXTENSÃO]
+   [INSERIR LINK DA EXTENSÃO](https://github.com/DSRodriguess/wcag-accessibility-checker-release)
 
 2. Acesse a seção Releases do repositório.
+
+![Releases no repositório](./evidencias/instalar-vsix.png)
+
 3. Localize a versão indicada para esta avaliação.
+
+![Localização do arquivo .vsix](./evidencias/instalar-vsix-2.png)
+
 4. Baixe o arquivo com a extensão `.vsix`.
 
 Exemplo de nome do arquivo:
 
-`nome-da-extensao-1.0.0.vsix`
+`wcag-accessibility-checker-0.0.1.vsix`
 
 Não é necessário abrir ou descompactar o arquivo `.vsix`.
 
@@ -22,8 +28,18 @@ Não é necessário abrir ou descompactar o arquivo `.vsix`.
 
 1. Abra o Visual Studio Code.
 2. Acesse a aba Extensions na barra lateral.
+
+![Aba de Extensions do VSCode](./evidencias/instalar-vsix-3.png)
+
+
 3. Na parte superior da aba Extensions, selecione o menu de ações representado pelo ícone de três pontos.
+
+![Mais Extensions](./evidencias/instalar-vsix-4.png)
+
 4. Selecione a opção `Install from VSIX...`.
+
+![Opção de instalar a instensão](./evidencias/instalar-vsix-5.png)
+
 5. Localize o arquivo `.vsix` que foi baixado.
 6. Selecione o arquivo e aguarde a conclusão da instalação.
 7. Caso o Visual Studio Code solicite, selecione `Reload` para

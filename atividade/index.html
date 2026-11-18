@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro no evento</title>
+</head>
+
+<body style="color: #aaaaaa; background-color: #ffffff;">
+
+    <header>
+        <h1>Inscrição no evento de tecnologia</h1>
+    </header>
+
+    <header>
+        <p>Evento acadêmico sobre desenvolvimento Web</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#programacao">Saiba mais</a>
+    </nav>
+
+    <nav>
+        <a href="#contato">Clique aqui</a>
+    </nav>
+
+    <section id="inicio">
+        <h3>Informações do participante</h3>
+
+        <img src="evento.jpg">
+
+        <form>
+            <p>Nome completo</p>
+            <input type="text" id="nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <select id="experiencia">
+                <option value="">Selecione sua experiência</option>
+                <option value="iniciante">Iniciante</option>
+                <option value="intermediario">Intermediário</option>
+            </select>
+
+            <textarea id="observacoes"></textarea>
+
+            <input
+                type="search"
+                aria-labelledby="rotulo-inexistente"
+                placeholder="Pesquisar"
+            >
+
+            <button
+                type="submit"
+                role="button"
+                style="width: 20px; height: 20px; outline: none;"
+            >
+                OK
+            </button>
+        </form>
+    </section>
+
+    <section id="programacao">
+        <h5>Programação</h5>
+
+        <p style="
+            line-height: 1;
+            letter-spacing: -1px;
+            word-spacing: -2px;
+        ">
+            Consulte os horários e as atividades disponíveis.
+        </p>
+
+        <a>Mais informações</a>
+
+        <a href="#palestras" aria-hidden="talvez">
+            Ver mais
+        </a>
+
+        <div role="botao" tabindex="0">
+            Abrir programação
+        </div>
+    </section>
+
+    <main>
+        <h2 id="palestras">Palestras confirmadas</h2>
+        <p>Confira as palestras disponíveis.</p>
+    </main>
+
+    <main>
+        <h2>Minicursos</h2>
+        <a href="#inscricao">Link</a>
+    </main>
+
+    <footer>
+        <input type="text" tabindex="-1" aria-labe="Contato">
+    </footer>
+
+    <footer>
+        <p>Evento acadêmico 2026</p>
+    </footer>
+
+</body>
+</html>
