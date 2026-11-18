@@ -46,7 +46,7 @@ Você deverá:
 
 ## Links necessários
 
-- Extensão para o Visual Studio Code: [INSERIR LINK DA EXTENSÃO]
+- Extensão para o Visual Studio Code: [WCAG Accessibility Checker](https://github.com/DSRodriguess/wcag-accessibility-checker-release)
 - Instruções detalhadas: [INSTRUCOES.md](https://github.com/DSRodriguess/avaliacao-extensao-acessibilidade/blob/main/INSTRUCOES.md)
 
 ## Informações importantes
