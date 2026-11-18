@@ -49,7 +49,13 @@ Não é necessário abrir ou descompactar o arquivo `.vsix`.
 
 1. Retorne ao repositório da atividade.
 2. Clique no botão `Code`.
+
+![Botão para início do download do teste](./evidencias/instalar-vsix-6.png)
+
 3. Selecione `Download ZIP`.
+
+![Dowload do teste](./evidencias/instalar-vsix-7.png)
+
 4. Extraia o arquivo ZIP para uma pasta do seu computador.
 5. Não altere o arquivo HTML antes de iniciar a atividade.
 
