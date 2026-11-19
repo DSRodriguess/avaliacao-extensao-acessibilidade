@@ -26,7 +26,7 @@ Caso ainda não tenha realizado essa etapa, acesse:
 
 Para realizar a atividade, será necessário:
 
-- um computador com o Visual Studio Code instalado;
+- um computador com o [Visual Studio Code](https://code.visualstudio.com/download) instalado;
 - conhecimento básico de HTML;
 - acesso à internet para baixar os materiais;
 - permissão para instalar uma extensão no formato `.vsix`.
